@@ -1,0 +1,638 @@
+{
+    "cities": {
+        "Alqualondë": 1,
+        "Andunië": 2,
+        "Argonath": 2,
+        "Bar-en-Danwedh": 3,
+        "Belegost": 3,
+        "Brie": 0,
+        "Brithombar": 1,
+        "Calentad": 2,
+        "Caras_Galadhon": 1,
+        "Casarrando": 3,
+        "Chateau-Bouc": 0,
+        "Creux-de-crique": 0,
+        "Cul-de-sac": 0,
+        "Dale": 3,
+        "Dwarrowdelf": 3,
+        "Edoras": 2,
+        "Elgarest": 1,
+        "Erebor": 3,
+        "Fondcombe": 1,
+        "Gondolin": 1,
+        "Gouffre_du_Helm": 2,
+        "Gouffre_noir": 3,
+        "Grand_cave": 0,
+        "Hadhodrond": 3,
+        "HobbitBourg": 0,
+        "Isengard": 2,
+        "Kazad-dûm": 3,
+        "La_grenouillere": 0,
+        "Le_val": 0,
+        "Lezeau": 0,
+        "Losgar": 1,
+        "Minas-Tirith": 2,
+        "Moria": 3,
+        "Narchost": 2,
+        "Nardol": 2,
+        "Nogrod": 3,
+        "Osgiliath": 2,
+        "Ost-in-Edhil": 1,
+        "Ostirith": 1,
+        "Pelargir": 2,
+        "Phurunargian": 3,
+        "Royaume_Sylvestre": 1,
+        "Souscoline": 0,
+        "Stock": 0,
+        "Tirion": 1,
+        "ToucqueBourg": 0,
+        "Umbar": 2,
+        "Vinyamar": 1
+    },
+    "diseases": [
+        "Hobbits",
+        "Elfes",
+        "Hommes",
+        "Nains"
+    ],
+    "neighbors": {
+        "Alqualondë": [
+            "Gondolin",
+            "Ostirith",
+            "Elgarest",
+            "Royaume_Sylvestre",
+            "Tirion"
+        ],
+        "Andunië": [
+            "Minas-Tirith",
+            "Pelargir",
+            "Umbar",
+            "Calentad",
+            "Andunië"
+        ],
+        "Argonath": [
+            "Nardol",
+            "Narchost",
+            "Umbar",
+            "Calentad",
+            "Andunië"
+        ],
+        "Bar-en-Danwedh": [
+            "Moria",
+            "Nogrod",
+            "Gouffre_noir",
+            "Hadhodrond",
+            "Phurunargian",
+            "Casarrando"
+        ],
+        "Belegost": [
+            "Erebor",
+            "Dale",
+            "Nogrod",
+            "Dwarrowdelf",
+            "Osgiliath",
+            "Creux-de-crique"
+        ],
+        "Brie": [
+            "Grand_cave",
+            "Chateau-Bouc",
+            "Isengard",
+            "Minas-Tirith",
+            "Stock",
+            "La_grenouillere"
+        ],
+        "Brithombar": [
+            "Ost-in-Edhil",
+            "Losgar",
+            "Ostirith",
+            "Tirion"
+        ],
+        "Calentad": [
+            "Gouffre_du_Helm",
+            "Nardol",
+            "Pelargir",
+            "Umbar",
+            "Argonath",
+            "Andunië"
+        ],
+        "Caras_Galadhon": [
+            "Ost-in-Edhil",
+            "Elgarest",
+            "Tirion",
+            "Vinyamar"
+        ],
+        "Casarrando": [
+            "Moria",
+            "Erebor",
+            "Bar-en-Danwedh",
+            "Phurunargian",
+            "Gouffre_noir"
+        ],
+        "Chateau-Bouc": [
+            "Brie",
+            "Cul-de-sac",
+            "Le_val",
+            "Creux-de-crique"
+        ],
+        "Creux-de-crique": [
+            "Souscoline",
+            "ToucqueBourg",
+            "Stock",
+            "Chateau-Bouc",
+            "Belegost"
+        ],
+        "Cul-de-sac": [
+            "HobbitBourg",
+            "Souscoline",
+            "Chateau-Bouc",
+            "Stock",
+            "Le_val"
+        ],
+        "Dale": [
+            "Moria",
+            "Belegost",
+            "Kazad-dûm",
+            "Hadhodrond",
+            "Phurunargian"
+        ],
+        "Dwarrowdelf": [
+            "Erebor",
+            "Belegost",
+            "Kazad-dûm",
+            "Hadhodrond",
+            "Tirion"
+        ],
+        "Edoras": [
+            "Brie",
+            "Gondolin",
+            "Isengard",
+            "Nardol",
+            "Umbar"
+        ],
+        "Elgarest": [
+            "Gondolin",
+            "Alqualondë",
+            "Caras_Galadhon",
+            "Royaume_Sylvestre"
+        ],
+        "Erebor": [
+            "Moria",
+            "Belegost",
+            "Nogrod",
+            "Dwarrowdelf",
+            "Phurunargian",
+            "Casarrando"
+        ],
+        "Fondcombe": [
+            "Ost-in-Edhil",
+            "Gondolin",
+            "Losgar",
+            "Tirion",
+            "Minas-Tirith"
+        ],
+        "Gondolin": [
+            "Fondcombe",
+            "Losgar",
+            "Alqualondë",
+            "Elgarest",
+            "Edoras",
+            "Moria"
+        ],
+        "Gouffre_du_Helm": [
+            "Minas-Tirith",
+            "Isengard",
+            "Osgiliath",
+            "Umbar",
+            "Calentad"
+        ],
+        "Gouffre_noir": [
+            "Moria",
+            "Bar-en-Danwedh",
+            "Kazad-dûm",
+            "Phurunargian",
+            "Casarrando"
+        ],
+        "Grand_cave": [
+            "HobbitBourg",
+            "Lezeau",
+            "ToucqueBourg",
+            "Brie",
+            "Le_val"
+        ],
+        "Hadhodrond": [
+            "Dale",
+            "Nogrod",
+            "Bar-en-Danwedh",
+            "Dwarrowdelf",
+            "La_grenouillere"
+        ],
+        "HobbitBourg": [
+            "Lezeau",
+            "Cul-de-sac",
+            "Souscoline",
+            "ToucqueBourg",
+            "Grand_cave"
+        ],
+        "Isengard": [
+            "Minas-Tirith",
+            "Gouffre_du_Helm",
+            "Edoras",
+            "Narchost"
+        ],
+        "Kazad-dûm": [
+            "Dale",
+            "Nogrod",
+            "Dwarrowdelf",
+            "Gouffre_noir"
+        ],
+        "La_grenouillere": [
+            "Lezeau",
+            "Le_val",
+            "Cul-de-sac",
+            "Brie",
+            "Hadhodrond"
+        ],
+        "Le_val": [
+            "Grand_cave",
+            "La_grenouillere",
+            "Stock",
+            "Chateau-Bouc"
+        ],
+        "Lezeau": [
+            "HobbitBourg",
+            "ToucqueBourg",
+            "Grand_cave",
+            "La_grenouillere",
+            "Narchost"
+        ],
+        "Losgar": [
+            "Fondcombe",
+            "Gondolin",
+            "Vinyamar",
+            "Brithombar",
+            "Royaume_Sylvestre"
+        ],
+        "Minas-Tirith": [
+            "Fondcombe",
+            "Brie",
+            "Gouffre_du_Helm",
+            "Isengard",
+            "Pelargir",
+            "Andunië"
+        ],
+        "Moria": [
+            "Dale",
+            "Erebor",
+            "Bar-en-Danwedh",
+            "Casarrando",
+            "Gouffre_noir",
+            "Gondolin"
+        ],
+        "Narchost": [
+            "Isengard",
+            "Osgiliath",
+            "Pelargir",
+            "Argonath",
+            "Lezeau"
+        ],
+        "Nardol": [
+            "Edoras",
+            "Osgiliath",
+            "Umbar",
+            "Argonath",
+            "Calentad"
+        ],
+        "Nogrod": [
+            "Erebor",
+            "Belegost",
+            "Bar-en-Danwedh",
+            "Kazad-dûm",
+            "Hadhodrond"
+        ],
+        "Osgiliath": [
+            "Stock",
+            "Ostirith",
+            "Gouffre_du_Helm",
+            "Nardol",
+            "Narchost",
+            "Belegost"
+        ],
+        "Ost-in-Edhil": [
+            "Fondcombe",
+            "Caras_Galadhon",
+            "Ostirith",
+            "Brithombar"
+        ],
+        "Ostirith": [
+            "Ost-in-Edhil",
+            "Alqualondë",
+            "Brithombar",
+            "Vinyamar",
+            "Osgiliath"
+        ],
+        "Pelargir": [
+            "Minas-Tirith",
+            "Narchost",
+            "Andunië",
+            "Umbar",
+            "Calentad"
+        ],
+        "Phurunargian": [
+            "Erebor",
+            "Dale",
+            "Bar-en-Danwedh",
+            "Casarrando",
+            "Gouffre_noir"
+        ],
+        "Royaume_Sylvestre": [
+            "Losgar",
+            "Alqualondë",
+            "Vinyamar",
+            "Elgarest"
+        ],
+        "Souscoline": [
+            "HobbitBourg",
+            "Cul-de-sac",
+            "Stock",
+            "Creux-de-crique"
+        ],
+        "Stock": [
+            "Souscoline",
+            "Cul-de-sac",
+            "Creux-de-crique",
+            "Le_val",
+            "Osgiliath",
+            "Brie"
+        ],
+        "Tirion": [
+            "Fondcombe",
+            "Alqualondë",
+            "Brithombar",
+            "Caras_Galadhon",
+            "Dwarrowdelf"
+        ],
+        "ToucqueBourg": [
+            "HobbitBourg",
+            "Lezeau",
+            "Grand_cave",
+            "Creux-de-crique"
+        ],
+        "Umbar": [
+            "Gouffre_du_Helm",
+            "Edoras",
+            "Nardol",
+            "Pelargir",
+            "Argonath",
+            "Andunië",
+            "Calentad"
+        ],
+        "Vinyamar": [
+            "Losgar",
+            "Ostirith",
+            "Royaume_Sylvestre",
+            "Caras_Galadhon"
+        ]
+    },
+    "positions": {
+        "Alqualondë": {
+            "x": -0.5,
+            "y": 11.6,
+            "z": -12.1
+        },
+        "Andunië": {
+            "x": 29.4,
+            "y": 12.9,
+            "z": -38.1
+        },
+        "Argonath": {
+            "x": 42.9,
+            "y": 10.9,
+            "z": -25.6
+        },
+        "Bar-en-Danwedh": {
+            "x": 17.3,
+            "y": 14.9,
+            "z": -15.2
+        },
+        "Belegost": {
+            "x": 16.4,
+            "y": 20.9,
+            "z": 48.2
+        },
+        "Brie": {
+            "x": -33.3,
+            "y": 9.7,
+            "z": 11
+        },
+        "Brithombar": {
+            "x": -10.2,
+            "y": 10.6,
+            "z": -23
+        },
+        "Calentad": {
+            "x": 11,
+            "y": 9.1,
+            "z": -53
+        },
+        "Caras_Galadhon": {
+            "x": 17.6,
+            "y": 12.3,
+            "z": -28.9
+        },
+        "Casarrando": {
+            "x": -30.2,
+            "y": 22.3,
+            "z": 30.2
+        },
+        "Chateau-Bouc": {
+            "x": -41.7,
+            "y": 7.9,
+            "z": 41.2
+        },
+        "Creux-de-crique": {
+            "x": -20.9,
+            "y": 10.3,
+            "z": -1.1
+        },
+        "Cul-de-sac": {
+            "x": -15.6,
+            "y": 10.9,
+            "z": 21.5
+        },
+        "Dale": {
+            "x": 45.2,
+            "y": 18.728,
+            "z": 30.86
+        },
+        "Dwarrowdelf": {
+            "x": 28.0,
+            "y": 16.4,
+            "z": -18.9
+        },
+        "Edoras": {
+            "x": 6.7,
+            "y": 10.5,
+            "z": -36.1
+        },
+        "Elgarest": {
+            "x": -38.8,
+            "y": 10.6,
+            "z": -8.4
+        },
+        "Erebor": {
+            "x": 39.9,
+            "y": 13.0,
+            "z": 40.5
+        },
+        "Fondcombe": {
+            "x": 14.3,
+            "y": 16.9,
+            "z": 14
+        },
+        "Gondolin": {
+            "x": 17.0,
+            "y": 11.5,
+            "z": -47.4
+        },
+        "Gouffre_du_Helm": {
+            "x": -1.7,
+            "y": 11.3,
+            "z": -2.7
+        },
+        "Gouffre_noir": {
+            "x": 50.7,
+            "y": 10.3,
+            "z": -19.9
+        },
+        "Grand_cave": {
+            "x": -12.7,
+            "y": 10.6,
+            "z": 8.8
+        },
+        "Hadhodrond": {
+            "x": 6.98,
+            "y": 20.0,
+            "z": 55.7
+        },
+        "HobbitBourg": {
+            "x": -42.2,
+            "y": 11.2,
+            "z": 20.5
+        },
+        "Isengard": {
+            "x": 2.5,
+            "y": 11.6,
+            "z": -25.3
+        },
+        "Kazad-dûm": {
+            "x": 20.7,
+            "y": 20.3,
+            "z": 30.5
+        },
+        "La_grenouillere": {
+            "x": -31.7,
+            "y": 9.7,
+            "z": 52.0
+        },
+        "Le_val": {
+            "x": -35,
+            "y": 10.7,
+            "z": 43.7
+        },
+        "Lezeau": {
+            "x": 3.1,
+            "y": 10.1,
+            "z": 27.9
+        },
+        "Losgar": {
+            "x": -48,
+            "y": 11.3,
+            "z": 20.8
+        },
+        "Minas-Tirith": {
+            "x": 42.9,
+            "y": 21,
+            "z": -41.8
+        },
+        "Moria": {
+            "x": 12.6,
+            "y": 12.3,
+            "z": 45
+        },
+        "Narchost": {
+            "x": 30.3,
+            "y": 10,
+            "z": -2.1
+        },
+        "Nardol": {
+            "x": -8.4,
+            "y": 11.3,
+            "z": -6.7
+        },
+        "Nogrod": {
+            "x": 32.3,
+            "y": 13.9,
+            "z": 46.6
+        },
+        "Osgiliath": {
+            "x": 32.7,
+            "y": 9.7,
+            "z": -11.9
+        },
+        "Ost-in-Edhil": {
+            "x": -7.3,
+            "y": 10.8,
+            "z": 14.7
+        },
+        "Ostirith": {
+            "x": -37.3,
+            "y": 11.6,
+            "z": 33.6
+        },
+        "Pelargir": {
+            "x": 5,
+            "y": 1.05,
+            "z": 11.1
+        },
+        "Phurunargian": {
+            "x": 19.0,
+            "y": 17.8,
+            "z": 10.5
+        },
+        "Royaume_Sylvestre": {
+            "x": 47.0,
+            "y": 13.2,
+            "z": 0.4
+        },
+        "Souscoline": {
+            "x": -14.5,
+            "y": 8.5,
+            "z": -27.4
+        },
+        "Stock": {
+            "x": -0.2,
+            "y": 37,
+            "z": 10.4
+        },
+        "Tirion": {
+            "x": 16.8,
+            "y": 10,
+            "z": 28.3
+        },
+        "ToucqueBourg": {
+            "x": -42.2,
+            "y": 10.3,
+            "z": 28.0
+        },
+        "Umbar": {
+            "x": 33.6,
+            "y": 11.3,
+            "z": 21.4
+        },
+        "Vinyamar": {
+            "x": 28.1,
+            "y": 13.8,
+            "z": -49.5
+        }
+    }
+}
