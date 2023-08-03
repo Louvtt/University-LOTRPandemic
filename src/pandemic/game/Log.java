@@ -11,10 +11,25 @@ public class Log {
     // protected static final String LOG_FILE_PATH = "log.txt";
 
     /**
+     * Level of the debugger
+     */
+    public enum Level {
+        /** Show debug logs */
+        DEBUG,
+        /** Show default logs (no debug logs) */
+        DEFAULT,
+        /** Show only errors */
+        CRITICAL
+    };
+    /** Level of the logger */
+    protected Level level;
+
+    /**
      * Create the logger
      */
     protected Log() {
         this.logToConsole = true;
+        this.level = Level.DEFAULT;
     }
 
     /**
@@ -36,13 +51,23 @@ public class Log {
     }
 
     /**
+     * Set the level of the logger
+     */
+    public void setLevel(Level level) {
+        this.level = level;
+    }
+
+    /**
      * Prints a debug message in system.out
      * @param msg the message to print
      */
     public void debug(String msg) {
         if(!this.logToConsole) return;
-        System.out.print("[DEBUG] ");
-        System.out.println(msg);
+
+        if(this.level == Level.DEBUG) {
+            System.out.print("[DEBUG] ");
+            System.out.println(msg);
+        }
     }
 
     /**
@@ -60,6 +85,8 @@ public class Log {
      */
     public void log(String msg) {
         if(!this.logToConsole) return;
+
+        if(this.level == Level.CRITICAL) return;
         System.out.println(msg);
     }
 
@@ -70,6 +97,8 @@ public class Log {
      */
     public void log(String msg, char end) {
         if(!this.logToConsole) return;
+
+        if(this.level == Level.CRITICAL) return;
         System.out.print(msg + end);
     }
 }
